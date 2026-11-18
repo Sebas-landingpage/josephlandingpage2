@@ -2,7 +2,7 @@ import { act, cleanup, fireEvent, render, screen } from "@testing-library/react"
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { StoriesCarousel } from "@/components/landing/StoriesCarousel";
 import { WistiaVideo } from "@/components/landing/WistiaVideo";
-const HeroVideo = () => <WistiaVideo mediaId="m0m8e6gfb6" aspect="1.7777777777777777" label="Hero video" />;
+const HeroVideo = () => <WistiaVideo mediaId="qe6rj4fu1u" aspect="1.7777777777777777" label="Hero video" />;
 
 const carousel = vi.hoisted(() => ({
   selected: 0,

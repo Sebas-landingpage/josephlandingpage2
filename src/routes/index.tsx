@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
     ],
     scripts: [
       { src: "https://fast.wistia.com/player.js", async: true },
-      ...["m0m8e6gfb6", "26kunyl0qb", "s0jsdzilad", "s0cb5zf8yx"].map((id) => ({
+      ...["qe6rj4fu1u", "26kunyl0qb", "s0jsdzilad", "s0cb5zf8yx"].map((id) => ({
         src: `https://fast.wistia.com/embed/${id}.js`,
         async: true,
         type: "module",
@@ -118,7 +118,7 @@ function Index() {
             Into <em className="hero-outcome text-primary">the Home You Actually Want.</em>
           </h1>
           <WistiaVideo
-            mediaId="m0m8e6gfb6"
+            mediaId="qe6rj4fu1u"
             aspect="1.7777777777777777"
             label="Joseph Aziz Stay-or-Move evaluation video"
             overlayText="Watch This Video First · 2-Min Breakdown"
